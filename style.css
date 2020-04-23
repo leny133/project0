@@ -1,6 +1,6 @@
 header {
   position: relative;
-  background-color: black;
+  background-color: lightgreen;
   height: 75vh;
   min-height: 25rem;
   width: 100%;
@@ -42,9 +42,7 @@ h1, h2, h3, #mofongo, #spiders, #tostones {
   color:green;
   font-weight: bold;
 }
-.jumbotron{
-  background-color: rgb(127, 255, 0);
-}
+
 h3{
   text-align: left;
 }
