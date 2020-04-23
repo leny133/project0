@@ -47,19 +47,19 @@ h3{
   text-align: left;
 }
 
-@media (min-width: 1000px){
+@media (min-width: 701px){
     header, body, footer, p.AddMargin{
         font-family: cursive;
         background-color: lightyellow;
-        font-size: 40px;
+        font-size: 30px;
         margin:20px;
       }
 }
-@media (max-width: 999px){
+@media (max-width: 700px){
     header, body, footer, p.AddMargin{
         font-family: sans;
         background-color: yellow;
-        font-size: 45px;
+        font-size: 40px;
         margin : 10px;
 
       }
