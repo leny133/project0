@@ -51,13 +51,13 @@ h3{
     header, body, footer, p.AddMargin{
         font-family: cursive;
         background-color: lightyellow;
-        font-size: 20px;
+        font-size: 40px;
         margin:20px;
       }
 }
 @media (max-width: 999px){
     header, body, footer, p.AddMargin{
-        font-family: cursive;
+        font-family: sans;
         background-color: yellow;
         font-size: 45px;
         margin : 10px;
