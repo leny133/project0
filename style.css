@@ -3,7 +3,7 @@ header {
   background-color: lightyellow;
   height: 75vh;
   min-height: 25rem;
-  width: 90%;
+  width: 95%;
   overflow: hidden;
 }
 
@@ -51,18 +51,22 @@ h3{
     header, body, footer, p.AddMargin{
         font-family: sans-serif;
         background-color: lightyellow;
-        font-size: 30px;
+        font-size: 35px;
         margin:20px;
+      }
+      h3{
+      font-size:45px;
       }
 }
 @media (max-width: 700px){
     header, body, footer, p.AddMargin{
         font-family: sans-serif;
         background-color: yellow;
-        font-size: 40px;
+        font-size: 45px;
         margin : 10px;
 
       }
+
 }
 .center {
   display: block;
