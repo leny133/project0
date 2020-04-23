@@ -1,9 +1,9 @@
 header {
   position: relative;
-  background-color: lightgreen;
+  background-color: lightyellow;
   height: 75vh;
   min-height: 25rem;
-  width: 100%;
+  width: 98%;
   overflow: hidden;
 }
 
@@ -11,7 +11,7 @@ header video {
   position: absolute;
   top: 50%;
   left: 50%;
-  min-width: 90%;
+  min-width: 100%;
   min-height: 100%;
   width: auto;
   height: auto;
@@ -49,7 +49,7 @@ h3{
 
 @media (min-width: 701px){
     header, body, footer, p.AddMargin{
-        font-family: cursive;
+        font-family: sans-serif;
         background-color: lightyellow;
         font-size: 30px;
         margin:20px;
@@ -57,7 +57,7 @@ h3{
 }
 @media (max-width: 700px){
     header, body, footer, p.AddMargin{
-        font-family: sans;
+        font-family: sans-serif;
         background-color: yellow;
         font-size: 40px;
         margin : 10px;
