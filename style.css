@@ -46,7 +46,9 @@ h1, h2, h3, #mofongo, #spiders, #tostones {
 h3{
   text-align: left;
 }
-
+.row h3{
+      text-align: center;
+       }
 @media (min-width: 721px){
     header, body, footer, p.AddMargin{
         font-family: sans-serif;
