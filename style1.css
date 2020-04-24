@@ -1,41 +1,47 @@
+table th, table td {
+  border: 2px solid green;
+  padding: 10px;
+}
 
 h1, h2, #mofongo, #spiders, #tostones {
   text-align: center;
-  color:green;
+  color: green;
   font-weight: bold;
 }
 
-h3{
+h3 {
   text-align: left;
-  color:green;
+  color: green;
   font-size: 45px;
 }
-h2{
+
+h2 {
   font-size: 55px;
 }
 
-@media (min-width: 721px){
-    header, body, footer, p.AddMargin{
-        font-family: cursive;
-        background-color: lightyellow;
-        font-size: 35px;
-        margin:20px;
-      }
+@media (min-width: 721px) {
+  header, body, footer, p.AddMargin {
+    font-family: sans-serif;
+    background-color: lightyellow;
+    font-size: 35px;
+    margin: 20px;
+  }
 }
-@media (max-width: 720px){
-    header, body, footer, p.AddMargin{
-        font-family: cursive;
-        background-color: yellow;
-        font-size: 35px;
-        margin : 10px;
+@media (max-width: 720px) {
+  header, body, footer, p.AddMargin {
+    font-family: sans-serif;
+    background-color: yellow;
+    font-size: 35px;
+    margin: 10px;
+  }
 
-      }
-      h3{
-        font-size: 40px;
-      }
-      h2{
-        font-size: 48px;
-      }
+  h3 {
+    font-size: 40px;
+  }
+
+  h2 {
+    font-size: 48px;
+  }
 }
 .center {
   display: block;
@@ -43,22 +49,18 @@ h2{
   margin-right: auto;
   width: 90%;
 }
-table, td {
-  border: 1px solid green;
-  padding: 10px;
+
+table th {
+  color: green;
 }
-th{
-  border: 2px solid green;
-  padding: 10px;
-}
-p{
-  font-family: serif;
-  font-size: 20px;
-  }
-a{
-  font-style:italic;
+
+a {
+  font-style: italic;
   font-weight: bold;
- }
-.recipe:hover, a:hover{
-    background-color: yellow;
 }
+
+.recipe:hover, a:hover {
+  background-color: yellow;
+}
+
+/*# sourceMappingURL=style1.css.map */
